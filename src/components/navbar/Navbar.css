@@ -3,6 +3,7 @@
     padding: 0;
     text-decoration: none;
     list-style: none;
+    color: #4A556C;
 }
 .container-nav{
     margin: 0 auto;
@@ -21,7 +22,7 @@
     align-items: center;
     justify-content: space-between;
 }
-.nav-a{
+.nav-li{
     font-family: 'Kumbh Sans', sans-serif;
     color: #4A556C;
     font-size: 15px;

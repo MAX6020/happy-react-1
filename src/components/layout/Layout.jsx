@@ -1,13 +1,15 @@
 import React from "react";
 import Navbar from "../navbar/Navbar";
-import Footer from "../footer/Footer"
-import Main from "./../../pages/main"
+import Footer from "../footer/Footer";
+import Routers from "../../routers/Routers";
 
 const Layout = () => {
     return ( 
         <>
         <Navbar/>
-        <Main/>
+            <div>
+                <Routers/>
+            </div>   
         <Footer/>
         </>
      );

@@ -1,4 +1,5 @@
 import "./Navbar.css";
+import { NavLink } from 'react-router-dom';
 import logo from "./../../img/Logo.svg"
 
 
@@ -7,29 +8,29 @@ const Navbar = () => {
     <nav className="nav">
       <div className="container-nav">
         <div className="nav-row">
-          <a href="./index.html" className="logo">
-            <img src={logo}></img>
-          </a>
+          <NavLink to="/main">
+            <img src={logo} className="logo"></img>
+            </NavLink>
           <ul className="nav-ul">
             <li className="nav-li">
-              <a href="" className="nav-a">
+              <NavLink to="/main">
                 Home
-              </a>
+              </NavLink>
             </li>
             <li className="nav-li">
-              <a href="" className="nav-a">
+              <NavLink to="/service">
                 Service
-              </a>
+              </NavLink>
             </li>
             <li className="nav-li">
-              <a href="" className="nav-a">
+              <NavLink>
                 About us
-              </a>
+              </NavLink>
             </li>
             <li className="nav-li">
-              <a href="" className="nav-a">
+              <NavLink>
                 Extra Salepages
-              </a>
+              </NavLink>
             </li>
             <li className="nav-li">
               <button className="nav-btn">Get your free guide now</button>
