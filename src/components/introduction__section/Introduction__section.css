@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+.introduction-padding__under{
+    padding: 40px 40px 40px 40px;
+}
+.introduction__head{
+    color: #041434;
+    font-size: 24px;
+    font-family: Kumbh Sans;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: -0.72px;
+    padding-bottom: 16px;
+}
+.introduction__text{
+    color: #4A556C;
+    font-size: 16px;
+    font-family: Kumbh Sans;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.32px;
+}
+.introduction__icon{
+    padding-bottom: 32px;
+}

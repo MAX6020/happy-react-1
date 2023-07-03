@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+.blog{
+    border: 1px solid #EDEFF5;
+    width: 356px;
+    margin-right: 41px;
+    margin-bottom: 55px;
+}
+.blog__head{
+    padding: 24px 28px 24px 28px;
+    color: #333461;
+    font-size: 24px;
+    font-family: Kumbh Sans;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: -0.72px;
+}
+.blog__text{
+    padding: 0 28px 24px 28px;
+    color: #4A556C;
+    font-size: 16px;
+    font-family: Kumbh Sans;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.32px;
+}

@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+.reviewers__background{
+    background-color: #ffffff;
+    width: 400px;
+    height: 391px;
+}
+.reviewers__padding{
+    padding: 48px 68px 48px 48px;
+}
+.review__text{
+    color: #4A556C;
+    font-size: 24px;
+    font-family: Kumbh Sans;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: -0.72px;
+    padding-bottom: 15px;
+}
+.review__name{
+    color: #333461;
+    font-size: 24px;
+    font-family: Kumbh Sans;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: -0.72px;
+    padding-bottom: 15px;
+}
+.img{
+    padding-bottom: 15px;
+}
