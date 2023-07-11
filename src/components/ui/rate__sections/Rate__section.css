@@ -1,0 +1,53 @@
+.rate__background{
+    background-color: white;
+    margin-right: 37px;
+    height: 100%;
+}
+.rate__background:hover h1{
+    transition: 0.5s;
+    color: #20AD96;
+}
+.rate__background:hover{
+    cursor: pointer;
+}
+.rate__padding{
+    display: flex;
+    flex-direction: column;
+    padding: 48px 48px 48px 48px;
+    width: 300px;
+}
+.rate{
+    transition: 0.5s;
+    color: var(--gray-300, #DBDEE6);
+    font-family: Kumbh Sans;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 40px;
+    letter-spacing: -0.9px;
+}
+.rate__text{
+    padding-top: 15px;
+    color: #4A556C;
+    font-family: Kumbh Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: -0.72px;
+}
+.rate__name{
+    padding-top: 15px;
+    color: #333461;
+    font-family: Kumbh Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: -0.72px;
+}
+.rate__img{
+    padding-top: 15px;
+    width: 70px;
+    height: 70px;
+}

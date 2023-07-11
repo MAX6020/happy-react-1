@@ -23,17 +23,17 @@ const Navbar = () => {
               </NavLink>
             </li>
             <li className="nav-li">
-              <NavLink>
+              <NavLink to="/about">
                 About us
               </NavLink>
             </li>
             <li className="nav-li">
-              <NavLink>
+              <NavLink to="/salepages">
                 Extra Salepages
               </NavLink>
             </li>
             <li className="nav-li">
-              <button className="nav-btn">Get your free guide now</button>
+              <button className="nav-btn"><NavLink to="/freeguide"><p className="btn__text">Get your free guide now</p></NavLink></button>
             </li>
           </ul>
         </div>

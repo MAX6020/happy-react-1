@@ -1,0 +1,37 @@
+.active{
+    display: block !important;
+}
+.FAQ__section__flex{
+    display: flex;
+    justify-content: space-between;
+}
+.FAQ__section__head{
+    color: var(--gray-900, #101828);
+    font-family: Kumbh Sans;
+    font-size: 18px;
+    font-style: normal;
+    line-height: 28px;
+}
+.FAQ__section__text{
+    margin-top: 8px;
+    display: none;
+    padding-right: 36px;
+    color: #4A556C;
+    font-family: Kumbh Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+.FAQ__section__img{
+    display: flex;
+    align-items: start;
+    height: 24px;
+    cursor: pointer;
+}
+.FAQ__section__img__close{
+    display: flex;
+    align-items: start;
+    height: 24px;
+    cursor: pointer;
+}

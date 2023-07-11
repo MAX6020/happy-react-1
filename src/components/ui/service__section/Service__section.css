@@ -1,0 +1,44 @@
+.service__section__background{
+    display: block;
+    border: #EDEFF5 1px solid;
+    margin-bottom: 20px;
+    width: 450px;
+}
+.service__section__background:hover h2{
+    color: #20AD96;
+    transition: 0.5s;
+}
+.service__section__background:hover{
+    cursor: pointer;
+}
+.service__section__flex{
+    padding: 56px 75px 56px 75px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.service__section__head{
+    transition: 0.5s;
+    padding-top: 32px;
+    font-size: 24px;
+    color: #000;
+    font-family: Kumbh Sans;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: -0.72px;
+}
+.service__section__p{
+    padding-top: 16px;
+    color: var(--gray-800, #4A556C);
+    font-size: 16px;
+    font-family: Kumbh Sans;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.32px;
+}
+.service__section__img{
+    width: 72px;
+    height: 72px;
+}

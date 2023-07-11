@@ -1,0 +1,25 @@
+.freatures__section__flex{
+    display: flex;
+    width: 560px;
+}
+.freatures__section__img{
+    margin-right: 16px;
+}
+.freatures__section__head{
+    margin-top: 13px;
+    padding-bottom: 10px;
+    color: #333461;
+    font-family: Kumbh Sans;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+}
+.freatures__section__text{
+    color: #667085;
+    font-family: Kumbh Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}

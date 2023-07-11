@@ -9,6 +9,9 @@
     width: 400px;
     height: 391px;
 }
+.reviewers__background:hover{
+    cursor: pointer;
+}
 .reviewers__padding{
     padding: 48px 68px 48px 48px;
 }

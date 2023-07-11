@@ -1,0 +1,48 @@
+.quote__section__backgruond{
+    width: 450px;
+    border: 1px solid #EDEFF5;
+    margin-right: 32px;
+    margin-bottom: 42px;
+}
+.quote__section__padding{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 25px 20px 25px;
+}
+.quote__section__text{
+    color: #667085;
+    text-align: center;
+    font-family: Kumbh Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    padding-bottom: 32px;
+}
+.quote__section__img{
+    margin-bottom: 16px;
+}
+.quote__section__name{
+    color: #333461;
+    text-align: center;
+    font-family: Kumbh Sans;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+}
+.quote__section__smalltext{
+    color: rgba(74, 85, 108, 0.50);
+    text-align: center;
+    font-family: Kumbh Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+.quote__section__star{
+    margin-top: 16px;
+    display: flex;
+}

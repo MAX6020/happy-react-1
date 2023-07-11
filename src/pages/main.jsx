@@ -60,7 +60,7 @@ const Main = () => {
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed <br />
                     do eiusmod tempor incididunt ut labore et dolore magna <br />
                     aliqua minim veniam.<br />
-
+                    <br />
                     Sed ut perspiciatis unde omnis iste natus error sit <br />
                     voluptatem accusantium doloremque laudantium, totam <br />
                     rem aperiam, eaque ipsa quae ab illo inventore veritatis <br />

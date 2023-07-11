@@ -50,7 +50,7 @@
 .container-introduction{
     background-image: url("./../img/background-introduction.png");
     background-repeat: no-repeat;
-    width: 1236px;
+    width: 1440px;
     margin: 0 auto;
 }
 .heading{
@@ -72,10 +72,12 @@
     margin-left: 74px;
 }
 .introduction__upper{
+    margin-left: 150px;
     display: flex;
     padding-top: 133px;
 }
 .introduction__under{
+    margin-left: 150px;
     display: flex;
     justify-content: space-between;
     margin-bottom: 120px;

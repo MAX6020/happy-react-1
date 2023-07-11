@@ -42,8 +42,15 @@
 }
 .nav-btn:hover{
     background-color: #ffffff;
-    color: #20AD96;
     border: 1px solid;
     border-color: #20AD96;
     transition: 0.5s;
+}
+.nav-btn:hover p{
+    color: #20AD96;
+}
+.btn__text{
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 400px;
 }

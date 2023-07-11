@@ -1,0 +1,329 @@
+.salepage__hero{
+    background-image: url("../img/background-hero.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    width: 1236px;
+    margin: 0 auto;
+}
+.salepage__gero__flex{
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.salepage__hero__heading{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.smalltext{
+    color: var(--gray-800, #4A556C);
+    font-family: Kumbh Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.32px;
+    opacity: 0.4000000059604645;
+}
+.salepage__hero__head{
+    margin-top: 6px;
+    color: #333461;
+    font-family: Kumbh Sans;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 120%;
+    letter-spacing: -0.72px;
+}
+.salepage__hero__text{
+    margin-top: 18px;
+    margin-bottom: 18px;
+    color: #4A556C;
+    font-family: Kumbh Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+}
+.salepage__hero__img{
+    width: 462px;
+    height: 603px;
+    margin-right: 90px;
+}
+.salepage__center__smalltext{
+    margin-top: 96px;
+    color: rgba(74, 85, 108, 0.50);
+    text-align: center;
+    font-family: Kumbh Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+.salepage__center__heading{
+    margin-top: 12px;
+    color: #333461;
+    text-align: center;
+    font-family: Kumbh Sans;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 44px;
+    letter-spacing: -0.72px;
+}
+.salepage__freatures__text{
+    margin-top: 20px;
+    color: rgba(74, 85, 108, 0.70);
+    text-align: center;
+    font-family: Kumbh Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+.salepage__freatures__block{
+    display: flex;
+    margin-top: 64px;
+}
+.salepage__freatures__section{
+    background-image: url("./../img/Features__section.png");
+}
+.salepage__freatures__flex{
+    padding-top: 96px;
+    margin-top: 61px;
+    display: flex;
+    justify-content: space-between;
+}
+.salepage__freatures__li{
+    margin-bottom: 48px;
+}
+.salepage__freatures__video{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 96px;
+}
+.salepage__text{
+    padding-top: 24px;
+    padding-bottom: 38px;
+    color: rgba(74, 85, 108, 0.70);
+    font-family: Kumbh Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+.salepage__head{
+    color: #333461;
+    text-align: start;
+    font-family: Kumbh Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 58px;
+    letter-spacing: -0.96px;
+}
+.salepage__section__flex{
+    margin-top: 164px;
+    display: flex;
+    justify-content: space-between;
+}
+.salepage__section__btn{
+    margin-top: 23px;
+    background-color: #20AD96;
+    border: none;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 400px;
+    width: 225px;
+    height: 48px;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+.salepage__section__btn:hover{
+    background-color: #ffffff;
+    border: #20AD96 1px solid;
+    transition: 0.5s;
+    color: #20AD96;
+}
+.salepage__quote__section{
+    margin-top: 86px;
+}
+.container__quote{
+    width: 932px;
+    margin: 0 auto;
+}
+.salepage__quote__section__upper{
+    display: flex;
+}
+.salepage__quote__section__under{
+    display: flex;
+}
+.salepage__qual{
+    margin-top: 85px;
+    background-color: #FAF8F6;
+    margin-bottom: 231px;
+}
+.container__qual{
+    width: 932px;
+    margin: 0 auto;
+    padding-top: 1px;
+}
+.salepage__qual__flex{
+    justify-content: space-between;
+    margin-top: 57px;
+    padding-bottom: 66px;
+    display: flex;
+}
+.salepage__qual__head{
+    color: #333461;
+    text-align: center;
+    font-family: Kumbh Sans;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    letter-spacing: -0.22px;
+    padding-top: 57px;
+}
+.salepage__qual__your{
+    background-color: #ffffff;
+}
+.salepage__qual__ul{
+    padding: 74px 57px 78px 57px;
+}
+.salepage__qual__li{
+    padding-bottom: 28px;
+    color: #667085;
+    font-family: Kumbh Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    display: flex;
+}
+.salepage__qual__icon{
+    margin-right: 12px;
+    margin-bottom: 24px;
+}
+.underline{
+    text-decoration: underline;
+}
+.salepage__section__background{
+    background-color: #FAF8F6;
+    border-radius: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+.salepage__section__head{
+    color: #333461;
+    font-size: 36px;
+    font-family: Kumbh Sans;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    padding-bottom: 20px;
+}
+.salepage__section__p{
+    color: rgba(74, 85, 108, 0.50);
+    font-size: 20px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    padding-bottom: 30px;
+}
+.salepage__section__text{
+    padding: 48px 76px 65px 65px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.salepage__section__img{
+    padding-top: 48px;
+}
+.salepage__guarante__flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.salepage__guarante__head{
+    margin-bottom: 24px;
+    color: #333461;
+    text-align: center;
+    font-family: Kumbh Sans;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 48px;
+    letter-spacing: -0.5px;
+}
+.salepage__guarante__text{
+    margin-bottom: 218px;
+    color: rgba(74, 85, 108, 0.70);
+    text-align: center;
+    font-family: Kumbh Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+.salepage__guarante__img{
+    margin-top: 127px;
+    width: 312px;
+    height: 266px;
+}
+.FAQ__under__head{
+    padding-top: 20px;
+    color: #4A556C;
+    text-align: center;
+    font-family: Kumbh Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+.FAQ__ul{
+    margin-top: 32px;
+    margin-bottom: 32px;
+    margin-left: 256px;
+    margin-right: 256px;
+}
+.FAQ__li{
+    padding-top: 32px;
+    padding-bottom: 32px;
+    border-bottom: #E4E7EC 1px solid;
+}
+.FAQ__questions__background{
+    background-color: #FAF8F6;
+    margin-bottom: 132px;
+}
+.FAQ__head{
+    padding-top: 32px;
+    color: #333461;
+    text-align: center;
+    font-family: Kumbh Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 30px;
+}
+.FAQ__questions__text{
+    color: #4A556C;
+    text-align: center;
+    font-family: Kumbh Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    margin-top: 8px;
+}
+.btn__questions{
+    display: flex;
+    justify-content: center;
+    margin-top: 32px;
+    padding-bottom: 32px;
+}
